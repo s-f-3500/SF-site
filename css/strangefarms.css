@@ -15494,8 +15494,7 @@ section.u-image,
   width: 0;
   height: 0;
 }
-.u-icon-circle,
-.u-icon-circle img {
+.u-icon-circle{
   border-radius: 50%;
 }
 .u-file-icon img {
@@ -17796,7 +17795,7 @@ div.u-video,
   font-size: 28px !important;
 }
 .u-menu-close:hover {
-  color: #397139;
+  color: #d9a334;
 }
 .u-enable-responsive.u-offcanvas .u-sidenav {
   height: 100vh;
@@ -21573,12 +21572,12 @@ a.u-link.u-hover-color-2-dark-1:hover {
 .u-container-layout.u-color-2:before,
 .u-table-alt-color-2 tr:nth-child(even) {
   color: #ffffff;
-  background-color: #00aa00;
+  background-color: #d9a334;
 }
 .u-button-style.u-color-2,
 .u-button-style.u-color-2[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #00aa00 !important;
+  background-color: #d9a334 !important;
 }
 .u-button-style.u-color-2:hover,
 .u-button-style.u-color-2[class*="u-border-"]:hover,
@@ -21591,7 +21590,7 @@ a.u-link.u-hover-color-2-dark-1:hover {
 li.active > .u-button-style.u-button-style.u-color-2,
 li.active > .u-button-style.u-button-style.u-color-2[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #00aa00 !important;
+  background-color: #d9a334 !important;
 }
 .u-hover-color-2:hover,
 .u-hover-color-2[class*="u-border-"]:hover,
@@ -32835,7 +32834,7 @@ a.u-button-style.u-button-style.active > .u-text-active-palette-2-base[class*="u
 .u-button-style:hover > .u-text-hover-palette-2-base .u-svg-link,
 .u-button-style.u-button-style.active > .u-text-active-palette-2-base .u-svg-link,
 .u-text-hover-palette-2-base:focus .u-svg-link {
-  fill: #713971;
+  fill: #fefe3f;
 }
 .u-link.u-text-palette-2-base:hover {
   color: #d63b42 !important;
@@ -34478,7 +34477,7 @@ a.u-button-style.u-button-style.active > .u-text-active-black[class*="u-border-"
 :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-nav-link.u-text-active-black.active,
 .u-popupmenu-items.u-text-hover-black .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-black .u-nav-link.active {
-  color: #713971 !important;
+  color: #fefe3f !important;
 }
 .u-text-black .u-svg-link,
 .u-text-hover-black .u-svg-link,
@@ -35304,7 +35303,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-1 tr:nth-child(even)
         {
             color: #000;
-            background-color: #397139; /* _header/footer */
+            background-color: #596F21; /* _header/footer */
         }
 
         .u-button-style.u-custom-color-1,
@@ -35351,11 +35350,11 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > a.u-button-style.u-button-style.u-active-custom-color-1[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #397139 !important;
+            background-color: #d9a334 !important;
         }
 
         a.u-link.u-hover-custom-color-1:hover {
-            color: #397139 !important;
+            color: #d9a334 !important;
         }
 
         
@@ -35366,8 +35365,8 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-container-layout.u-custom-color-2:before,
         .u-table-alt-custom-color-2 tr:nth-child(even)
         {
-            color: #555555;
-            background-color: #1b1b1b;
+            color: #000;
+            background-color: #4E593C;
         }
 
         .u-button-style.u-custom-color-2,
@@ -35399,14 +35398,14 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-3 tr:nth-child(even)
         {
             color: #000;
-            background-color: #713971;
+            background-color: #fefe3f;
         }
         
         .u-button-style.u-custom-color-3,
         .u-button-style.u-custom-color-3[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #713971 !important;
+            background-color: #fefe3f !important;
         }
         
         .u-active-custom-color-2,
@@ -35665,12 +35664,12 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > a.u-button-style.u-button-style.u-border-active-custom-color-1
         {
             color: #000 !important;
-            border-color: #397139 !important;
+            border-color: #d9a334 !important;
         }
         
         .u-link.u-border-custom-color-1[class*="u-border-"]
         {
-            border-color: #397139 !important;
+            border-color: #d9a334 !important;
         }
         .u-link.u-border-custom-color-1[class*="u-border-"]:hover
         {
@@ -35856,12 +35855,12 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > a.u-button-style.u-button-style.u-border-active-custom-color-7
         {
             color: #000 !important;
-            border-color: #802b80 !important;
+            border-color: #fefe3f !important;
         }
 
         .u-link.u-border-custom-color-7[class*="u-border-"]
         {
-            border-color: #802b80 !important;
+            border-color: #fefe3f !important;
         }
 
         .u-link.u-border-custom-color-7[class*="u-border-"]:hover
@@ -35875,7 +35874,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-text-custom-color-1,
         a.u-button-style.u-text-custom-color-1[class*="u-border-"]
         {
-            color: #aa00aa !important;
+            color: #fefe3f !important;
         }
 
         a.u-button-style.u-text-custom-color-1:hover,
@@ -35911,7 +35910,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-popupmenu-items.u-text-hover-custom-color-1 .u-nav-link:hover,
         .u-popupmenu-items.u-popupmenu-items.u-text-active-custom-color-1 .u-nav-link.active
         {
-            color: #aa00aa !important;
+            color: #fefe3f !important;
         }
 
         .u-text-custom-color-1 .u-svg-link,
@@ -35920,12 +35919,12 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-button-style.u-button-style.active > .u-text-active-custom-color-1 .u-svg-link,
         .u-text-hover-custom-color-1:focus .u-svg-link
         {
-            fill: #aa00aa;
+            fill: #fefe3f;
         }
 
         .u-link.u-text-custom-color-1:hover
         {
-            color: #aa00aa !important;
+            color: #fefe3f !important;
         }
 
         a.u-link.u-text-hover-custom-color-1:hover
@@ -35938,7 +35937,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-text-custom-color-2,
         a.u-button-style.u-text-custom-color-2[class*="u-border-"]
         {
-            color: #00aa00 !important;
+            color: #d9a334 !important;
         }
 
         a.u-button-style.u-text-custom-color-2:hover,
@@ -35994,6 +35993,13 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-link.u-text-hover-custom-color-2:hover
         {
             color: #1b1b1b !important;
+        }
+
+        .u-text-custom-color-3,
+        a.u-button-style.u-text-custom-color-3,
+        a.u-button-style.u-text-custom-color-3[class*="u-border-"]
+        {
+            color: #e5c138 !important;
         }
         
         
@@ -36127,7 +36133,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-text-custom-color-7,
         a.u-button-style.u-text-custom-color-7[class*="u-border-"]
         {
-            color: #802b80 !important;
+            color: #fefe3f !important;
         }
 
         a.u-button-style.u-text-custom-color-7:hover,
@@ -36271,9 +36277,8 @@ a.u-link.u-text-hover-grey-90:hover {
         font-size: 0.875rem;
         margin-top: 20px;
         margin-bottom: 20px;
-        font-family: secondfont;
-        text-transform: uppercase;
-        letter-spacing: 10px;      
+        font-family: thirdfont;
+        letter-spacing: 10px; 
         }
         p:not(.u-text-variant)
         {
@@ -36499,13 +36504,13 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1rem;
   letter-spacing: 10px;
   background-image: none;
-  font-family: secondfont;
+  font-family: thirdfont;
   text-transform: uppercase;
 }
 
 .u-header .u-nav-2 {
   font-size: 1.25rem;
-  font-family: secondfont;
+  font-family: thirdfont;
   text-transform: uppercase;
   letter-spacing: 10px;
 }
@@ -36531,7 +36536,7 @@ a.u-link.u-text-hover-grey-90:hover {
 /*__MAIN CSS__*/
 
 .u-section-1 .u-text-1 {
-  font-size: 7.5rem;
+  font-size: 6.3rem;
   text-transform: none;
   font-family: mainfont;
   margin: 171px auto 0;
@@ -36548,7 +36553,7 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-section-1 .u-text-3 {
   font-weight: 700;
   text-transform: uppercase;
-  font-family: secondfont;
+  font-family: thirdfont;
   margin: 18px 15px 0;
   letter-spacing: 2px;
   -webkit-text-stroke-width: 2px;
@@ -36556,11 +36561,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-section-1 .u-icon-1 {
-  height: 100px;
-  width: 100px;
-  background-image: none;
-  color: #397139 !important;
+  height: 70px;
+  width: 70px;
+  background-color: black;
+  color: #d9a334 !important;
   margin: 0 auto;
+  padding:7px;
 }
 
 .u-line-1 {
@@ -36618,7 +36624,74 @@ a.u-link.u-text-hover-grey-90:hover {
   padding: 30px 1px;
 }
 
+.tooltip::before,
+.tooltip::after {
+  --scale: 0;
+  --arrow-size: 10px;
+  --tooltip-color: #fefe3f;
+  color: #000;
+
+  position: absolute;
+  top: -.8rem;
+  left: 50%;
+  transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
+  transition: 350ms transform;
+  transform-origin: bottom center;
+  font-family: secondfont !important;
+}
+
+.tooltip::before {
+  --translate-y: calc(-100% - var(--arrow-size));
+
+  content: attr(data-tooltip);
+  color: white;
+  padding: .5rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: max-content;
+  background: var(--tooltip-color);
+}
+
+.tooltip:hover::before,
+.tooltip:hover::after {
+  --scale: 1;
+}
+
+.tooltip::after {
+  --translate-y: calc(-1 * var(--arrow-size));
+
+  content: '';
+  border: var(--arrow-size) solid transparent;
+  border-top-color: var(--tooltip-color);
+  transform-origin: top center;
+}
+
+.popup {
+  background-color: #d9a334;
+  width: 100%;
+  padding: 10px 40px;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+  position: absolute;
+border-radius: .8vw;
+  display: none;
+  text-align: center;
+  z-index: 1;
+}
+
+.popup button {
+  display: block;
+  margin: 0 0 20px auto;
+  background-color: transparent;
+  color: #fefe3f;
+  border: none;
+  cursor: pointer;
+}
 @media (max-width: 1199px) {
+  .u-section-1 .u-text-1 {
+    font-size: 6rem;
+  }
   .u-section-1 .u-text-3 {
     margin-left: 0;
     margin-right: 0;
@@ -36631,7 +36704,8 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 991px) {
   .u-section-1 .u-text-1 {
-    font-size: 6.113rem;
+    font-size: 6.213rem;
+    width:640px;
   }
 
   .u-section-1 .u-repeater-2 {
@@ -36649,10 +36723,17 @@ a.u-link.u-text-hover-grey-90:hover {
     margin: 26px auto 0;
     padding: 12px 45px 12px 45px;
   }  
+  h4{
+    font-weight: 400;
+    font-size: 1.393rem;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 767px) {
   .u-section-1 .u-text-1 {
-    font-size: 6.113rem;
+    font-size: 4.813rem;
     width: 450px;
   }
 
@@ -36675,6 +36756,13 @@ a.u-link.u-text-hover-grey-90:hover {
     margin: 26px auto 0;
     padding: 12px 15px 12px 15px;
   }  
+  h4 {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
 @media (max-width: 575px) {
   .u-footer .u-text-1 {
@@ -36684,7 +36772,7 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-section-1 .u-text-1 {
-    font-size: 4.125rem;
+    font-size: 3.125rem;
     width: 290px;
   }
 
@@ -36726,16 +36814,23 @@ a.u-link.u-text-hover-grey-90:hover {
   background: transparent; 
 }
 
+::-moz-selection {color: #a09a34;background: #54642f;}
+::selection {color: #a09a34;background: #54642f;}
+
 @font-face {
   font-family: mainfont;
-  src: url(https://fonts.cdnfonts.com/s/36662/MinecraftTen-VGORe.woff);
+  src: url(https://fontsfree.net//wp-content/fonts/display/techno/FontsFree-Net-MODERN-WARFARE.ttf);
 }
 
 @font-face {
   font-family: secondfont;
-  src: url(https://fontsfree.net//wp-content/fonts/techno/sci-fi/FontsFree-Net-Battle-Bots.ttf);
+  src: url(https://fontsfree.net//wp-content/fonts/techno/sci-fi/FAST-TRACK.ttf);
 }
 
+@font-face {
+  font-family: thirdfont;
+  src: url(https://fontsfree.net//wp-content/fonts/techno/sci-fi/Infinite-Energy.ttf);
+}
 .madeby::before,
 .madeby::after {
   --scale: 0;
