@@ -36545,6 +36545,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-family: mainfont;
   margin: 171px auto 0;
   text-transform: uppercase;
+  display:inline-block;
 }
 
 .u-section-1 .u-text-2 {
