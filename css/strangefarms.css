@@ -36274,11 +36274,15 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         p.u-small-text
         {
-        font-size: 0.875rem;
+        font-size: 1rem;
+        letter-spacing: 10px;
+        background-image: none;
+        font-family: thirdfont;
+        text-transform: uppercase;
+        -webkit-text-stroke-width: 0.01px;
+        -webkit-text-stroke-color: #596f21;      
         margin-top: 20px;
         margin-bottom: 20px;
-        font-family: thirdfont;
-        letter-spacing: 10px; 
         }
         p:not(.u-text-variant)
         {
