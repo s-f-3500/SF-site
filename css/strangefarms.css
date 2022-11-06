@@ -36539,13 +36539,16 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*__MAIN CSS__*/
 
-.u-section-1 .u-text-1 {
+.u-section-1 .u-text-1,.u-section-1 .u-text-1x {
   font-size: 6.3rem;
   text-transform: none;
   font-family: mainfont;
-  margin: 171px auto 0;
   text-transform: uppercase;
   display:inline-block;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 171px auto 0;
 }
 
 .u-section-1 .u-text-2 {
@@ -36694,7 +36697,7 @@ border-radius: .8vw;
   cursor: pointer;
 }
 @media (max-width: 1199px) {
-  .u-section-1 .u-text-1 {
+  .u-section-1 .u-text-1,.u-section-1 .u-text-1x {
     font-size: 6rem;
   }
   .u-section-1 .u-text-3 {
@@ -36708,7 +36711,7 @@ border-radius: .8vw;
   }
 }
 @media (max-width: 991px) {
-  .u-section-1 .u-text-1 {
+  .u-section-1 .u-text-1,.u-section-1 .u-text-1x {
     font-size: 6.213rem;
     width:640px;
   }
@@ -36737,7 +36740,7 @@ border-radius: .8vw;
   }
 }
 @media (max-width: 767px) {
-  .u-section-1 .u-text-1 {
+  .u-section-1 .u-text-1,.u-section-1 .u-text-1x {
     font-size: 4.813rem;
     width: 450px;
   }
@@ -36776,7 +36779,7 @@ border-radius: .8vw;
     margin-right: 0;
   }
 
-  .u-section-1 .u-text-1 {
+  .u-section-1 .u-text-1,.u-section-1 .u-text-1x {
     font-size: 3.125rem;
     width: 290px;
   }
