@@ -13625,6 +13625,9 @@ section.u-image,
 .u-sticky {
   transition: background-color 250ms, box-shadow 250ms;
 }
+.u-header.u-box-shadow {
+  z-index: 1;
+}
 .u-overlap .u-header {
   position: absolute;
   top: 0;
@@ -35807,7 +35810,7 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > a.u-button-style.u-button-style.u-border-active-custom-color-6
         {
             color: #fefe00 !important;
-            border-color: #fefe00 !important;
+            border-color: #4e593c !important;
         }
 
         .u-link.u-border-custom-color-6[class*="u-border-"]
@@ -36496,12 +36499,12 @@ a.u-link.u-text-hover-grey-90:hover {
   background-image: none;
 }
 
-.u-header .u-sheet-1 {
-  min-height: 89px;
+.u-header .u-menu-1 {
+  margin: 27px 0 0 auto;
 }
 
-.u-header .u-menu-1 {
-  margin: 27px auto 31px;
+.u-header .u-menu-2 {
+  margin: -54px auto 27px 0;
 }
 
 .u-header .u-nav-1 {
@@ -36512,18 +36515,11 @@ a.u-link.u-text-hover-grey-90:hover {
   text-transform: uppercase;
 }
 
-.u-header .u-nav-2 {
-  font-size: 1.25rem;
-  font-family: thirdfont;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-}
-
 @media (max-width: 991px) {
-  .u-header .u-menu-1 {
+  .u-header .u-menu-1, .u-header .u-menu-2 {
     width: auto;
-    margin-top: 29px;
-    margin-bottom: 29px;
+    margin-top: 27px;
+    margin-bottom: 0px;
     margin-left: 0;
   }
 }
@@ -36574,7 +36570,7 @@ a.u-link.u-text-hover-grey-90:hover {
   background-color: black;
   color: #d9a334 !important;
   margin: 0 auto;
-  padding:7px;
+  padding:15px;
 }
 
 .u-line-1 {
@@ -36747,6 +36743,10 @@ border-radius: .8vw;
 
   .u-section-1 .u-text-2 {
     font-size: 3.5625rem;
+  }
+
+  .u-section-1 .u-text-3 {
+    font-size: 1.55rem;
   }
 
   .u-section-1 .u-repeater-2 {
