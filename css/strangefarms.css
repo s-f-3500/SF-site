@@ -25597,7 +25597,7 @@ a.u-link.u-hover-white:hover {
 li.active > .u-button-style.u-button-style.u-black,
 li.active > .u-button-style.u-button-style.u-black[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #0090db !important;
+  background-color: #ff0000 !important;
 }
 .u-hover-black:hover,
 .u-hover-black[class*="u-border-"]:hover,
@@ -35306,7 +35306,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-1 tr:nth-child(even)
         {
             color: #000;
-            background-color: #435619; /* _header/footer */
+            background-color: #ffde00; /* _header/footer */
         }
 
         .u-button-style.u-custom-color-1,
@@ -35369,7 +35369,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-2 tr:nth-child(even)
         {
             color: #000;
-            background-color: #4E593C;
+            background-color: #2b2b2b;
         }
 
         .u-button-style.u-custom-color-2,
