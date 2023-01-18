@@ -35636,8 +35636,8 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-border-custom-color-1,
         .u-separator-custom-color-1:after
         {
-            border-color: #0090da;
-            stroke: #0090da;
+            border-color: #1b1b1b;
+            stroke: #1b1b1b;
         }
 
         .u-button-style.u-border-custom-color-1
@@ -36565,6 +36565,16 @@ a.u-link.u-text-hover-grey-90:hover {
   -webkit-text-stroke-color: #2b2b2b;
 }
 
+.u-section-1 .u-text-4 {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: forthfont;
+  margin: 18px 15px 0;
+  letter-spacing: 2px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #000;
+}
+
 .u-section-1 .u-icon-1 {
   height: 70px;
   width: 70px;
@@ -36842,6 +36852,11 @@ border-radius: .8vw;
 @font-face {
   font-family: thirdfont;
   src: url(https://fontsfree.net//wp-content/fonts/techno/sci-fi/Infinite-Energy.ttf);
+}
+
+@font-face {
+  font-family: forthfont;
+  src: url(https://fontsfree.net//wp-content/fonts/techno/square/SHARPIN.ttf);
 }
 .madeby::before,
 .madeby::after {
