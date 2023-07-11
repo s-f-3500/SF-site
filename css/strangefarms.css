@@ -3992,8 +3992,25 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   margin: 0;
+  padding: 0;
+  background-image:linear-gradient(var(--clr-2),var(--clr-2));;
 }
+footer {
+  margin-top: auto;
+  height: 188px;
+  bottom: 0;
+  line-height: 47px;
+}
+
+:root {
+  --clr-1: #ffde00; /*__footer*/
+  --clr-2: #2b2b2b; /*__background*/
+}
+
 article,
 aside,
 details,
@@ -35306,7 +35323,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-1 tr:nth-child(even)
         {
             color: #000;
-            background-color: #ffde00; /* _header/footer */
+            background-color: var(--clr-1); /* _header/footer */
         }
 
         .u-button-style.u-custom-color-1,
@@ -35369,14 +35386,14 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-2 tr:nth-child(even)
         {
             color: #000;
-            background-color: #2b2b2b;
+            background-color: var(--clr-2);
         }
 
         .u-button-style.u-custom-color-2,
         .u-button-style.u-custom-color-2[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #1b1b1b !important;
+            background-color: var(--clr-2) !important;
         }
 
         .u-button-style.u-custom-color-2:hover,
@@ -35877,7 +35894,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-text-custom-color-1,
         a.u-button-style.u-text-custom-color-1[class*="u-border-"]
         {
-            color: #fefe3f !important;
+            color: var(--clr-1) !important;
         }
 
         a.u-button-style.u-text-custom-color-1:hover,
@@ -35889,7 +35906,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-button-style.u-text-custom-color-1.active,
         a.u-button-style.u-button-style.u-text-custom-color-1[class*="u-border-"].active
         {
-            color: #c91818 !important;
+            color: var(--clr-1) !important;
         }
 
         a.u-button-style:hover > .u-text-hover-custom-color-1,
@@ -36536,6 +36553,27 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*__MAIN CSS__*/
 
+@font-face{
+font-family: mainfont;
+src: url(https://raw.githubusercontent.com/google/fonts/main/ofl/bungeeshade/BungeeShade-Regular.ttf);
+}
+
+@font-face {
+font-family: secondfont;
+src: url(https://raw.githubusercontent.com/google/fonts/main/ofl/bungee/Bungee-Regular.ttf);
+}
+
+@font-face {
+font-family: thirdfont;
+src: url(https://raw.githubusercontent.com/google/fonts/main/ofl/bungee/Bungee-Regular.ttf);
+}
+
+@font-face {
+font-family: forthfont;
+src: url(https://raw.githubusercontent.com/google/fonts/main/ofl/bungeehairline/BungeeHairline-Regular.ttf);
+}
+
+
 .u-section-1 .u-text-1,.u-section-1 .u-text-1x {
   font-size: 6.3rem;
   text-transform: none;
@@ -36553,6 +36591,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-family: secondfont;
   text-transform: uppercase;
   letter-spacing: 10px;
+  color:#fff
 }
 
 .u-section-1 .u-text-3 {
@@ -36645,7 +36684,7 @@ a.u-link.u-text-hover-grey-90:hover {
   transform: translateX(-50%) translateY(var(--translate-y, 0)) scale(var(--scale));
   transition: 350ms transform;
   transform-origin: bottom center;
-  font-family: secondfont !important;
+  font-family: forthfont !important;
 }
 
 .tooltip::before {
@@ -36840,24 +36879,6 @@ border-radius: .8vw;
 ::selection {color: #a09a34;background: #54642f;}
 
 @font-face {
-  font-family: mainfont;
-  src: url(https://fontsfree.net//wp-content/fonts/display/techno/FontsFree-Net-MODERN-WARFARE.ttf);
-}
-
-@font-face {
-  font-family: secondfont;
-  src: url(https://fontsfree.net//wp-content/fonts/techno/sci-fi/FAST-TRACK.ttf);
-}
-
-@font-face {
-  font-family: thirdfont;
-  src: url(https://fontsfree.net//wp-content/fonts/techno/sci-fi/Infinite-Energy.ttf);
-}
-
-@font-face {
-  font-family: forthfont;
-  src: url(https://fontsfree.net//wp-content/fonts/techno/square/SHARPIN.ttf);
-}
 .madeby::before,
 .madeby::after {
   --scale: 0;
@@ -36879,7 +36900,7 @@ border-radius: .8vw;
   min-width: 320px;
   content: attr(data-madeby);
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #1b1b1b;
+  -webkit-text-stroke-color: #fff;
   color: #fff;
   padding: .5rem;
   border-radius: 1rem;
