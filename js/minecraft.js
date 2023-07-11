@@ -6,8 +6,8 @@ if(result.players.max == 0){
     $('#mc-status').html('Offline');
     $('#mc-status2').html('Offline');
     $('#mc-version').html(result.version.name.replace('Velocity ', '').replace('-', ' - '));
-    $('#mc-players').html("/");
-    $('#mc-players2').html("/");
+    $('#mc-players').html(result.players.online + "/" + result.players.max);
+    $('#mc-players2').html(result.players.online + "/" + result.players.max);
 }else{
     $('#mc-status').html('Online');
     $('#mc-status2').html('Online');
