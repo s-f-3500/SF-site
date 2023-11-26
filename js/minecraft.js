@@ -1,4 +1,4 @@
-var url = "https://api.minetools.eu/ping/strangefarms.minehut.gg/25565";
+var url = "https://api.minetools.eu/ping/mhfarm.minehut.gg/25565";
  
 $.getJSON(url, function(result) {
     //data is the JSON string

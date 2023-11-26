@@ -4001,14 +4001,22 @@ body {
 }
 footer {
   margin-top: auto;
-  height: 188px;
+  height: 94px;
   bottom: 0;
   line-height: 47px;
 }
 
 :root {
-  --clr-1: #ffde00; /*__footer*/
-  --clr-2: #2b2b2b; /*__background*/
+  --clr-0: #f31f41; /*__footer*/
+  --clr-1: #f82f4e; /*__color 1*/
+  --clr-2: #d6e49d; /*__background*/
+  --clr-3: #849855; /*__color 3*/
+  --clr-4: #464c35; /*__color 4*/
+  --clr-5: #000; /*__color 5*/
+  --clr-6: #849855; /*__color 6*/
+  --clr-7: #849855; /*__color 7*/
+  --clr-8: #849855; /*__color 8*/
+  --clr-9: #849855; /*__color 9*/
 }
 
 article,
@@ -17815,7 +17823,7 @@ div.u-video,
   font-size: 28px !important;
 }
 .u-menu-close:hover {
-  color: #d9a334;
+  color: var(--clr-3);
 }
 .u-enable-responsive.u-offcanvas .u-sidenav {
   height: 100vh;
@@ -21592,12 +21600,12 @@ a.u-link.u-hover-color-2-dark-1:hover {
 .u-container-layout.u-color-2:before,
 .u-table-alt-color-2 tr:nth-child(even) {
   color: #ffffff;
-  background-color: #d9a334;
+  background-color: var(--clr-3);
 }
 .u-button-style.u-color-2,
 .u-button-style.u-color-2[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #d9a334 !important;
+  background-color: var(--clr-3) !important;
 }
 .u-button-style.u-color-2:hover,
 .u-button-style.u-color-2[class*="u-border-"]:hover,
@@ -21610,7 +21618,7 @@ a.u-link.u-hover-color-2-dark-1:hover {
 li.active > .u-button-style.u-button-style.u-color-2,
 li.active > .u-button-style.u-button-style.u-color-2[class*="u-border-"] {
   color: #ffffff !important;
-  background-color: #d9a334 !important;
+  background-color: var(--clr-3) !important;
 }
 .u-hover-color-2:hover,
 .u-hover-color-2[class*="u-border-"]:hover,
@@ -25600,8 +25608,8 @@ a.u-link.u-hover-white:hover {
 }
 .u-button-style.u-black,
 .u-button-style.u-black[class*="u-border-"] {
-  color: #ffffff !important;
-  background-color: #000000 !important;
+  color: var(--clr-3) !important;
+  background-color: #000 !important;
 }
 .u-button-style.u-black:hover,
 .u-button-style.u-black[class*="u-border-"]:hover,
@@ -32854,7 +32862,7 @@ a.u-button-style.u-button-style.active > .u-text-active-palette-2-base[class*="u
 .u-button-style:hover > .u-text-hover-palette-2-base .u-svg-link,
 .u-button-style.u-button-style.active > .u-text-active-palette-2-base .u-svg-link,
 .u-text-hover-palette-2-base:focus .u-svg-link {
-  fill: #fefe3f;
+  fill: var(--clr-4);
 }
 .u-link.u-text-palette-2-base:hover {
   color: #d63b42 !important;
@@ -34497,7 +34505,7 @@ a.u-button-style.u-button-style.active > .u-text-active-black[class*="u-border-"
 :not(.level-2) > .u-nav > .u-nav-item > a.u-nav-link.u-nav-link.u-text-active-black.active,
 .u-popupmenu-items.u-text-hover-black .u-nav-link:hover,
 .u-popupmenu-items.u-popupmenu-items.u-text-active-black .u-nav-link.active {
-  color: #fefe3f !important;
+  color: var(--clr-4) !important;
 }
 .u-text-black .u-svg-link,
 .u-text-hover-black .u-svg-link,
@@ -35322,8 +35330,8 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-container-layout.u-custom-color-1:before,
         .u-table-alt-custom-color-1 tr:nth-child(even)
         {
-            color: #000;
-            background-color: var(--clr-1); /* _header/footer */
+            color: var(--clr-5);
+            background-color: var(--clr-0); /* _header/footer */
         }
 
         .u-button-style.u-custom-color-1,
@@ -35369,12 +35377,12 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > a.u-button-style.u-button-style.u-active-custom-color-1,
         li.active > a.u-button-style.u-button-style.u-active-custom-color-1[class*="u-border-"]
         {
-            color: #ffffff !important;
-            background-color: #d9a334 !important;
+            color: var(--clr-4) !important;
+            background-color: var(--clr-3) !important;
         }
 
         a.u-link.u-hover-custom-color-1:hover {
-            color: #d9a334 !important;
+            color: var(--clr-3) !important;
         }
 
         
@@ -35418,14 +35426,14 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-3 tr:nth-child(even)
         {
             color: #000;
-            background-color: #fefe3f;
+            background-color: var(--clr-4);
         }
         
         .u-button-style.u-custom-color-3,
         .u-button-style.u-custom-color-3[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #fefe3f !important;
+            background-color: var(--clr-4) !important;
         }
         
         .u-active-custom-color-2,
@@ -35684,12 +35692,12 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > a.u-button-style.u-button-style.u-border-active-custom-color-1
         {
             color: #000 !important;
-            border-color: #d9a334 !important;
+            border-color: var(--clr-3) !important;
         }
         
         .u-link.u-border-custom-color-1[class*="u-border-"]
         {
-            border-color: #d9a334 !important;
+            border-color: var(--clr-3) !important;
         }
         .u-link.u-border-custom-color-1[class*="u-border-"]:hover
         {
@@ -35875,12 +35883,12 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > a.u-button-style.u-button-style.u-border-active-custom-color-7
         {
             color: #000 !important;
-            border-color: #fefe3f !important;
+            border-color: var(--clr-4) !important;
         }
 
         .u-link.u-border-custom-color-7[class*="u-border-"]
         {
-            border-color: #fefe3f !important;
+            border-color: var(--clr-4) !important;
         }
 
         .u-link.u-border-custom-color-7[class*="u-border-"]:hover
@@ -35894,7 +35902,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-text-custom-color-1,
         a.u-button-style.u-text-custom-color-1[class*="u-border-"]
         {
-            color: var(--clr-1) !important;
+            color: var(--clr-0) !important;
         }
 
         a.u-button-style.u-text-custom-color-1:hover,
@@ -35906,7 +35914,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-button-style.u-text-custom-color-1.active,
         a.u-button-style.u-button-style.u-text-custom-color-1[class*="u-border-"].active
         {
-            color: var(--clr-1) !important;
+            color: var(--clr-0) !important;
         }
 
         a.u-button-style:hover > .u-text-hover-custom-color-1,
@@ -35930,7 +35938,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-popupmenu-items.u-text-hover-custom-color-1 .u-nav-link:hover,
         .u-popupmenu-items.u-popupmenu-items.u-text-active-custom-color-1 .u-nav-link.active
         {
-            color: #fefe3f !important;
+            color: var(--clr-4) !important;
         }
 
         .u-text-custom-color-1 .u-svg-link,
@@ -35939,12 +35947,12 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-button-style.u-button-style.active > .u-text-active-custom-color-1 .u-svg-link,
         .u-text-hover-custom-color-1:focus .u-svg-link
         {
-            fill: #fefe3f;
+            fill: var(--clr-4);
         }
 
         .u-link.u-text-custom-color-1:hover
         {
-            color: #fefe3f !important;
+            color: var(--clr-4) !important;
         }
 
         a.u-link.u-text-hover-custom-color-1:hover
@@ -35957,7 +35965,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-text-custom-color-2,
         a.u-button-style.u-text-custom-color-2[class*="u-border-"]
         {
-            color: #d9a334 !important;
+            color: var(--clr-1) !important;
         }
 
         a.u-button-style.u-text-custom-color-2:hover,
@@ -36019,7 +36027,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-text-custom-color-3,
         a.u-button-style.u-text-custom-color-3[class*="u-border-"]
         {
-            color: #e5c138 !important;
+            color: var(--clr-3) !important;
         }
         
         
@@ -36153,7 +36161,7 @@ a.u-link.u-text-hover-grey-90:hover {
         a.u-button-style.u-text-custom-color-7,
         a.u-button-style.u-text-custom-color-7[class*="u-border-"]
         {
-            color: #fefe3f !important;
+            color: var(--clr-4) !important;
         }
 
         a.u-button-style.u-text-custom-color-7:hover,
@@ -36299,8 +36307,6 @@ a.u-link.u-text-hover-grey-90:hover {
         background-image: none;
         font-family: thirdfont;
         text-transform: uppercase;
-        -webkit-text-stroke-width: 0.01px;
-        -webkit-text-stroke-color: #596f21;      
         margin-top: 20px;
         margin-bottom: 20px;
         }
@@ -36594,14 +36600,14 @@ src: url(https://raw.githubusercontent.com/google/fonts/main/ofl/bungeehairline/
   color:#fff
 }
 
-.u-section-1 .u-text-3 {
+.u-section-1 .u-text-3,.u-section-1 .u-text-3x,.u-section-1 .u-text-3y {
   font-weight: 700;
   text-transform: uppercase;
   font-family: thirdfont;
   margin: 18px 15px 0;
   letter-spacing: 2px;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #2b2b2b;
+  -webkit-text-stroke-color: #e1d9b3;
 }
 
 .u-section-1 .u-text-4 {
@@ -36618,7 +36624,7 @@ src: url(https://raw.githubusercontent.com/google/fonts/main/ofl/bungeehairline/
   height: 70px;
   width: 70px;
   background-color: black;
-  color: #d9a334 !important;
+  color: var(--clr-3) !important;
   margin: 0 auto;
   padding:15px;
 }
@@ -36628,8 +36634,8 @@ src: url(https://raw.githubusercontent.com/google/fonts/main/ofl/bungeehairline/
 }
 
 .u-line-1 {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 0%;
+  margin-right: 50%;
 }
 
 .u-section-1 .u-list-1 {
@@ -36650,7 +36656,7 @@ src: url(https://raw.githubusercontent.com/google/fonts/main/ofl/bungeehairline/
 }
 
 .u-section-1 .u-repeater-3 {
-  grid-template-columns: repeat(3, 33.33333333336%);
+  grid-template-columns: repeat(2, 33.33333333336%);
   grid-gap: 0px 0px;
   grid-auto-columns: 33.33333333336%;
 }
@@ -36675,7 +36681,7 @@ src: url(https://raw.githubusercontent.com/google/fonts/main/ofl/bungeehairline/
 .tooltip::after {
   --scale: 0;
   --arrow-size: 10px;
-  --tooltip-color: #fefe3f;
+  --tooltip-color: var(--clr-4);
   color: #000;
 
   position: absolute;
@@ -36714,7 +36720,7 @@ src: url(https://raw.githubusercontent.com/google/fonts/main/ofl/bungeehairline/
 }
 
 .popup {
-  background-color: #d9a334;
+  background-color: var(--clr-3);
   width: 100%;
   padding: 10px 40px;
   right: 50%;
@@ -36731,15 +36737,18 @@ border-radius: .8vw;
   display: block;
   margin: 0 0 20px auto;
   background-color: transparent;
-  color: #fefe3f;
+  color: var(--clr-4);
   border: none;
   cursor: pointer;
+}
+.xxx{
+  display: none;
 }
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1,.u-section-1 .u-text-1x {
     font-size: 6rem;
   }
-  .u-section-1 .u-text-3 {
+  .u-section-1 .u-text-3,.u-section-1 .u-text-3x,.u-section-1 .u-text-3y {
     margin-left: 0;
     margin-right: 0;
   }
@@ -36753,6 +36762,9 @@ border-radius: .8vw;
   .u-section-1 .u-text-1,.u-section-1 .u-text-1x {
     font-size: 6.213rem;
     width:640px;
+  }
+  .xxx{
+    display: inline-block;
   }
 
   .u-section-1 .u-repeater-2 {
@@ -36790,6 +36802,9 @@ border-radius: .8vw;
 
   .u-section-1 .u-text-3 {
     font-size: 1.55rem;
+  }
+  .u-section-1 .u-text-3x {
+    font-size: 1.27rem;
   }
 
   .u-section-1 .u-repeater-2 {
@@ -36856,9 +36871,15 @@ border-radius: .8vw;
     background-image: none;
     margin: 26px auto 0;
     padding: 12px 45px 12px 45px;
-  }  
-  .x {
-    display:none;
+  }
+  p.u-small-text{
+    font-size: 1rem;
+    letter-spacing: 5px;
+    background-image: none;
+    font-family: thirdfont;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 
